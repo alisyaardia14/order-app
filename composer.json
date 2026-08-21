@@ -1,0 +1,25 @@
+{
+  "name": "joki/order-app",
+  "description": "Website pemesanan makanan dengan Laravel 11",
+  "type": "project",
+  "require": {
+    "php": "^8.1",
+    "laravel/framework": "^11.0",
+    "barryvdh/laravel-dompdf": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "dont-discover": []
+    }
+  },
+  "config": {
+    "audit": {
+      "block-insecure": false
+    }
+  }
+}
